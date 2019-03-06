@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>OdessaFrontend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+            --color-white: #fff;
+            --color-orange: #d`b3c00;
+        }
+
+        .progress::before {
+            background: var(--color-orange);
+        }
+
+        .slide::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 100'%3E%3Cpath fill='%23db3c00' d='M0 0h50v100l-25-20-25 20'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>OdessaFrontend</h1>
+        <p>Николай Птущук</p>
+    </header>
+
+    <section class="slide clear" id="cover">
+        <figure>
+            <img class="cover" src="pictures/cover.svg" alt="Логотип OdessaFrontend">
+        </figure>
+    </section>
+
+    <section class="slide" id="news">
+        <h2>Новости</h2>
+        <div class="next">
+            <a href="https://www.facebook.com/odessafrontend" target="_blank">https://www.facebook.com/odessafrontend</a>
+        </div>
+        <div class="next">
+            <a href="https://t.me/odessafrontend" target="_blank">https://t.me/odessafrontend</a>
+        </div>
+    </section>
+
+    <section class="slide" id="meetup">
+        <h2>Митапы</h2>
+        <div class="next columns two">
+            <div>
+                <a href="https://odessafrontend.com/01/" target="_blank">MEETUP #1</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/02/" target="_blank">MEETUP #2</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/03/" target="_blank">MEETUP #3</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/04/" target="_blank">MEETUP #4</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/05/" target="_blank">MEETUP #5</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/code/" target="_blank">Code challenge</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/06/" target="_blank">MEETUP #6</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/07/" target="_blank">MEETUP #7</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/08/" target="_blank">MEETUP #8</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/09/" target="_blank">MEETUP #9</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/10/" target="_blank">MEETUP #10</a>
+            </div>
+            <!-- <div>
+                <a href="https://odessafrontend.com/11/" target="_blank">MEETUP #11</a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="slide" id="speakers">
+        <h2>Митапы. Спикеры</h2>
+        <div class="next columns speakers">
+            <img src="pictures/speaker/romanuk.jpg" alt="Фотография Николая Романюка">
+            <img src="pictures/speaker/shatov.jpg" alt="Фотография Александра Шатова">
+            <img src="pictures/speaker/ptushchuk.jpg" alt="Фотография Николая Птущука">
+            <img src="pictures/speaker/kobylinskiy.jpg" alt="Фотография Алексея Кобылинского">
+            <img src="pictures/speaker/chihray.jpg" alt="Фотография Юрия Чихрая">
+            <img src="pictures/speaker/sorochenko.jpg" alt="Фотография Олега Сороченко">
+            <img src="pictures/speaker/kirilenko.jpg" alt="Фотография Вадима Кириленко">
+            <img src="pictures/speaker/krulkevich.jpg" alt="Фотография Дмитрия Крулькевича">
+            <img src="pictures/speaker/donika.jpg" alt="Фотография Валерия Доника">
+            <img src="pictures/speaker/mazurok.jpg" alt="Фотография Максима Мазурка">
+            <img src="pictures/speaker/koternyak.jpg" alt="Фотография Сергея Котерняка">
+            <img src="pictures/speaker/fedorenko.jpg" alt="Фотография Юрия Федоренко">
+            <img src="pictures/speaker/rotar.jpg" alt="Фотография Никиты Ротарь">
+            <img src="pictures/speaker/karabadzhak.jpg" alt="Фотография Ивана Карабаджак">
+            <img src="pictures/speaker/poluschenkov.jpg" alt="Фотография Сергея Полющенкова">
+            <img src="pictures/speaker/mindra.jpg" alt="Фотография Дмитрия Миндры">
+            <img src="pictures/speaker/sokur.jpg" alt="Фотография Олега Сокура">
+            <img src="pictures/speaker/mihailov.jpg" alt="Фотография Андрея Михайлова">
+            <img src="pictures/speaker/pritulskiy.jpg" alt="Фотография Анатолия Притульского">
+            <img src="pictures/speaker/cisar.jpg" alt="Фотография Дмитрия Цысаря">
+            <img src="pictures/speaker/broshkov.jpg" alt="Фотография Алексея Брошкова">
+            <img src="pictures/speaker/cherevatiy.jpg" alt="Фотография Валентина Череватого">
+            <img src="pictures/speaker/shulev.jpg" alt="Фотография Алексея Шулева">
+            <img src="pictures/speaker/makeev.jpg" alt="Фотография Вадима Макеева">
+            <img src="pictures/speaker/pshenichnyi.jpg" alt="Фотография Романа Пшеничного">
+            <img src="pictures/speaker/grishchenko.jpg" alt="Фотография Андрея Грищенко">
+            <img src="pictures/speaker/kulaksyz.jpg" alt="Фотография Кулаксыз Константина">
+            <img src="pictures/speaker/shevchenko.jpg" alt="Фотография Дмитрия Шевченко">
+            <img src="pictures/speaker/styagailo.jpg" alt="Фотография Андрея Стягайло">
+            <img src="pictures/speaker/lavrenuk.jpg" alt="Фотография Тимофея Лавренюка">
+        </div>
+        <style>
+            .speakers {
+                grid-column-gap: 0;
+                grid-template-columns: repeat(10, 1fr);
+            }
+
+            .speakers img {
+                max-width: 100%;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="support">
+        <h2>Митапы. Поддержка</h2>
+        <div class="next columns three support">
+            <div>
+                <img src="pictures/company/terminal42.png" alt="Логотип Терминал42">
+            </div>
+            <div>
+                <img src="pictures/company/hillel.png" alt="Логотип компьютерной школы Hillel">
+            </div>
+            <div>
+                <img src="pictures/company/modelist.png" alt="Логотип Modelist.studio">
+            </div>
+            <div>
+                <img src="pictures/company/ciklum.png" alt="Логотип Ciklum">
+            </div>
+            <div>
+                <img src="pictures/company/beetroot.jpg" alt="Логотип компании Beetroot">
+            </div>
+            <div>
+                <img src="pictures/company/oracle.png" alt="Логотип компании Oracle">
+            </div>
+            <div>
+                <img src="pictures/company/dataart.jpg" alt="Логотип компании DataArt">
+            </div>
+            <div>
+                <img src="pictures/company/lohika.jpg" alt="Логотип компании Lohika">
+            </div>
+            <div>
+                <img src="pictures/company/intersog.jpg" alt="Логотип компании Intersog">
+            </div>
+            <div>
+                <img src="pictures/company/keepsolid.png" alt="Логотип компании KeepSolid">
+            </div>
+        </div>
+        <style>
+            .support {
+                text-align: center;
+                align-items: center;
+            }
+
+            .support img {
+                max-width: 100%;
+                max-height: 100px;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="community">
+        <h2>Сообщество</h2>
+        <div class="next">
+            <a href="https://odessafrontend.com" target="_blank">https://odessafrontend.com</a>
+        </div>
+        <div class="next">
+            <a href="https://www.youtube.com/c/odessafrontend" target="_blank">https://www.youtube.com/c/odessafrontend</a>
+        </div>
+        <div class="next">
+            <a href="https://t.me/odessafrontendcommunity" target="_blank">https://t.me/odessafrontendcommunity</a>
+        </div>
+    </section>
+
+    <section class="slide" id="team">
+        <h2>Команда</h2>
+        <figure class="next team">
+            <img src="pictures/speaker/ptushchuk.jpg" alt="Фотография Николая Птущука">
+            <figcaption>Николай Птущук</figcaption>
+        </figure>
+        <style>
+            .team {
+                text-align: center;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="patreon">
+        <h2>Помощь</h2>
+        <div class="next">
+            <a href="https://www.patreon.com/odessafrontend" target="_blank">https://www.patreon.com/odessafrontend</a>
+        </div>
+        <div class="next columns patreon">
+            <img src="pictures/patreon/grishchuk.jpg" alt="Фотография Александры Грищук">
+            <img src="pictures/patreon/ptushchuk.jpg" alt="Фотография Виталия Птущука">
+            <img src="pictures/patreon/koternyak.jpg" alt="Фотография Сергея Котерняка">
+            <img src="pictures/patreon/savenkov.jpg" alt="Фотография Артёма Савенкова">
+            <img src="pictures/patreon/kochurov.jpg" alt="Фотография Константина Кочурова">
+            <img src="pictures/patreon/cisar.jpg" alt="Фотография Дмитрия Цысаря">
+        </div>
+        <style>
+            .patreon {
+                margin-top: 40px;
+                grid-column-gap: 0;
+                grid-template-columns: repeat(6, 1fr);
+            }
+
+            .patreon img {
+                max-width: 100%;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="contacts">
+        <h2>Контакты</h2>
+        <div class="next">
+            <a href="mailto:info@odessafrontend.com" target="_blank">info@odessafrontend.com</a>
+        </div>
+        <div class="next">
+            <a href="https://t.me/mcslayer" target="_blank">https://t.me/mcslayer</a>
+        </div>
+    </section>
+
+    <section class="slide clear" id="end">
+        <figure>
+            <img class="cover" src="pictures/cover.svg" alt="Логотип OdessaFrontend">
+        </figure>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+</body>
+</html>
