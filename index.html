@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <title>OdessaFrontend</title>
@@ -19,8 +20,14 @@
         .slide::after {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 100'%3E%3Cpath fill='%23db3c00' d='M0 0h50v100l-25-20-25 20'/%3E%3C/svg%3E");
         }
+
+        p.shout {
+            color: var(--color-grey);
+            font: bold 50px/1 'PT Sans Narrow', sans-serif;
+        }
     </style>
 </head>
+
 <body class="shower list">
 
     <header class="caption">
@@ -37,7 +44,8 @@
     <section class="slide" id="news">
         <h2>Новости</h2>
         <div class="next">
-            <a href="https://www.facebook.com/odessafrontend" target="_blank">https://www.facebook.com/odessafrontend</a>
+            <a href="https://www.facebook.com/odessafrontend"
+                target="_blank">https://www.facebook.com/odessafrontend</a>
         </div>
         <div class="next">
             <a href="https://t.me/odessafrontend" target="_blank">https://t.me/odessafrontend</a>
@@ -92,6 +100,15 @@
             <div>
                 <a href="https://odessafrontend.com/14/" target="_blank">MEETUP #14</a>
             </div>
+            <div>
+                <a href="https://odessafrontend.com/15/" target="_blank">MEETUP #15</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/16/" target="_blank">MEETUP #16</a>
+            </div>
+            <div>
+                <a href="https://odessafrontend.com/17/" target="_blank">MEETUP #17</a>
+            </div>
         </div>
     </section>
 
@@ -110,7 +127,6 @@
             <img src="pictures/speaker/koternyak.jpg" alt="Фотография Сергея Котерняка">
             <img src="pictures/speaker/rotar.jpg" alt="Фотография Никиты Ротарь">
             <img src="pictures/speaker/karabadzhak.jpg" alt="Фотография Ивана Карабаджак">
-            <img src="pictures/speaker/poluschenkov.jpg" alt="Фотография Сергея Полющенкова">
             <img src="pictures/speaker/mindra.jpg" alt="Фотография Дмитрия Миндры">
             <img src="pictures/speaker/sokur.jpg" alt="Фотография Олега Сокура">
             <img src="pictures/speaker/mihailov.jpg" alt="Фотография Андрея Михайлова">
@@ -122,7 +138,6 @@
             <img src="pictures/speaker/makeev.jpg" alt="Фотография Вадима Макеева">
             <img src="pictures/speaker/pshenichnyi.jpg" alt="Фотография Романа Пшеничного">
             <img src="pictures/speaker/grishchenko.jpg" alt="Фотография Андрея Грищенко">
-            <img src="pictures/speaker/kulaksyz.jpg" alt="Фотография Кулаксыз Константина">
             <img src="pictures/speaker/shevchenko.jpg" alt="Фотография Дмитрия Шевченко">
             <img src="pictures/speaker/styagailo.jpg" alt="Фотография Андрея Стягайло">
             <img src="pictures/speaker/lavrenuk.jpg" alt="Фотография Тимофея Лавренюка">
@@ -138,11 +153,20 @@
             <img src="pictures/speaker/chikhray.jpg" alt="Фотография Юрия Чихрая">
             <img src="pictures/speaker/fastovets.jpg" alt="Фотография Екатерины Фастовец">
             <img src="pictures/speaker/fomin.jpg" alt="Фотография Сергея Фомина">
+            <img src="pictures/speaker/plaksiviy.jpg" alt="Фотография Константина Плаксивого">
+            <img src="pictures/speaker/poluschenkov.jpg" alt="Фотография Сергея Полющенкова">
+            <img src="pictures/speaker/faraponov.jpg" alt="Фотография Михаила Фарапонова">
+            <img src="pictures/speaker/cugulsky.jpg" alt="Фотография Влада Цугульского">
+            <img src="pictures/speaker/kulaksyz.jpg" alt="Фотография Константина Кулаксыза">
+            <img src="pictures/speaker/barabanov.jpg" alt="Фотография Дмитрия Барабанова">
+            <img src="pictures/speaker/udkin.jpg" alt="Фотография Юрия Юдкина">
+            <img src="pictures/speaker/himenes.jpg" alt="Фотография Дмитрия Хименеса">
+            <img src="pictures/speaker/sapronov.jpg" alt="Фотография Филиппа Сапронова">
         </div>
         <style>
             .speakers {
                 grid-column-gap: 0;
-                grid-template-columns: repeat(10, 1fr);
+                grid-template-columns: repeat(12, 1fr);
             }
 
             .speakers img {
@@ -153,19 +177,20 @@
 
     <section class="slide" id="support">
         <h2>Митапы. Поддержка</h2>
-        <div class="next columns three support">
+        <div class="next columns four support">
             <img src="pictures/company/terminal42.png" alt="Логотип Терминал42">
             <img src="pictures/company/hillel.png" alt="Логотип компьютерной школы Hillel">
             <img src="pictures/company/modelist.png" alt="Логотип Modelist.studio">
             <img src="pictures/company/ciklum.png" alt="Логотип Ciklum">
             <img src="pictures/company/beetroot.jpg" alt="Логотип компании Beetroot">
             <img src="pictures/company/oracle.png" alt="Логотип компании Oracle">
-            <img src="pictures/company/dataart.jpg" alt="Логотип компании DataArt">
             <img src="pictures/company/lohika.jpg" alt="Логотип компании Lohika">
             <img src="pictures/company/intersog.jpg" alt="Логотип компании Intersog">
             <img src="pictures/company/keepsolid.png" alt="Логотип компании KeepSolid">
             <img src="pictures/company/andersen.png" alt="Логотип компании Andersen">
             <img src="pictures/company/absoft.jpg" alt="Логотип компании AB Soft">
+            <img src="pictures/company/greenTheatre.png" alt="Логотип Зелёного театра">
+            <img src="pictures/company/dataart.png" alt="Логотип компании DataArt">
         </div>
         <style>
             .support {
@@ -187,11 +212,17 @@
             <a href="https://odessafrontend.com" target="_blank">https://odessafrontend.com</a>
         </div>
         <div class="next">
-            <a href="https://www.youtube.com/c/odessafrontend" target="_blank">https://www.youtube.com/c/odessafrontend</a>
+            <a href="https://www.youtube.com/c/odessafrontend"
+                target="_blank">https://www.youtube.com/c/odessafrontend</a>
         </div>
         <div class="next">
             <a href="https://t.me/odessafrontendcommunity" target="_blank">https://t.me/odessafrontendcommunity</a>
         </div>
+    </section>
+
+    <section class="slide" id="ololo5">
+        <h2>Супер крутой бот</h2>
+        <a href="https://t.me/knowledge_power_bot" target="_blank">@knowledge_power_bot</a>
     </section>
 
     <section class="slide" id="team">
@@ -214,28 +245,28 @@
         </div>
         <div class="next columns patreon">
             <img src="pictures/patreon/grishchuk.jpg" alt="Фотография Александры Грищук">
-            <img src="pictures/patreon/chihray.jpg" alt="Фотография Юры Чихрая">
-            <img src="pictures/patreon/ptushchuk.jpg" alt="Фотография Виталия Птущука">
-            <img src="pictures/patreon/tsukanov.jpg" alt="Фотография Юрия Цуканова">
-            <img src="pictures/patreon/radov.jpg" alt="Фотография Сергея Радова">
-            <img src="pictures/patreon/fomin.jpg" alt="Фотография Сергея Фомиина">
-            <img src="pictures/patreon/krulkevich.jpg" alt="Фотография Дмитрия Крулькевича">
-            <img src="pictures/speaker/poluschenkov.jpg" alt="Фотография Сергея Полющенкова">
-            <img src="pictures/patreon/klimenko.jpg" alt="Фотография Дмитрия Клименко">
+            <img src="pictures/patreon/poluschenkov.jpg" alt="Фотография Сергея Полющенкова">
+            <img src="pictures/patreon/kunup.jpg" alt="Фотография Александра Кунуп">
+            <img src="pictures/patreon/buznik.jpg" alt="Фотография Александра Бузника">
+            <img src="pictures/patreon/shulga.jpg" alt="Фотография Максима Шульги">            
             <img src="pictures/patreon/tsugulskiy.jpg" alt="Фотография Влада Цугульского">
-            <img src="pictures/patreon/shulga.jpg" alt="Фотография Максима Шульги">
-            <img src="pictures/patreon/savenkov.jpg" alt="Фотография Артема Савенкова">
-            <img src="pictures/patreon/tsapu.jpg" alt="Фотография Ильи Цапу">
-            <img src="pictures/patreon/skvortsov.jpg" alt="Фотография Евгения Скворцова">
-            <img src="pictures/patreon/konovalchuk.jpg" alt="Фотография Влада Коновальчука">
-            <img src="pictures/patreon/сhyorny.jpg" alt="Фотография Алексея Черного">
-            <img src="pictures/patreon/cisar.jpg" alt="Фотография Дмитрия Цысаря">
+            <img src="pictures/patreon/klimenko.jpg" alt="Фотография Дмитрия Клименко">
+            <img src="pictures/patreon/kuripko.jpg" alt="Фотография Игоря Курипко">
+            <img src="pictures/patreon/fastovets.jpg" alt="Фотография Екатерины Фастовец">
+            <!-- <img src="pictures/patreon/kirillov.jpg" alt="Фотография Ильи Кириллова"> -->
+            <!-- <img src="pictures/patreon/savenkov.jpg" alt="Фотография Артема Савенкова"> -->
+            <!-- <img src="pictures/patreon/tsapu.jpg" alt="Фотография Ильи Цапу"> -->
+            <!-- <img src="pictures/patreon/skvortsov.jpg" alt="Фотография Евгения Скворцова"> -->
+            <!-- <img src="pictures/patreon/konovalchuk.jpg" alt="Фотография Влада Коновальчука"> -->
+            <!-- <img src="pictures/patreon/сhyorny.jpg" alt="Фотография Алексея Черного"> -->
+            <!-- <img src="pictures/patreon/kochurov.jpg" alt="Фотография Константина Кочурова"> -->
+            <!-- <img src="pictures/patreon/cisar.jpg" alt="Фотография Дмитрия Цысаря"> -->
         </div>
         <style>
             .patreon {
                 margin-top: 40px;
                 grid-column-gap: 0;
-                grid-template-columns: repeat(9, 1fr);
+                grid-template-columns: repeat(6, 1fr);
             }
 
             .patreon img {
@@ -268,4 +299,5 @@
 
     <script src="node_modules/shower-core/shower.min.js"></script>
 </body>
+
 </html>
